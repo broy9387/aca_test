@@ -1,0 +1,61 @@
+.header{
+    padding:20px;
+    height:100vh;
+    background:url("Deepa\ M.jpg")  no-repeat center;
+    background-size:cover;
+    position:relative;
+    margin:0ch;
+}
+ul{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+ul li{
+    list-style:none;
+
+}
+ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(211, 193, 193);
+    font-size: 48px;
+    text-decoration:wavy;
+    padding:50px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    margin:0px;
+}
+ul li a:hover {
+    border-bottom-style:dashed;
+}
+.name {
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    color:rgb(247, 222, 222);
+}
+.about{
+    text-align:center;
+    font-weight:bold;
+    font-family:cursive;
+    color:rgb(146, 100, 100);
+    margin:0px;
+}
+.biography{
+    text-align:center justify;
+    background:linear-gradient(rgb(158, 158, 240),lightblue);
+    margin:0ex;
+    padding:2ex;
+}
+.achievement{
+    margin:0ex;
+    padding:5px;
+    text-align: center;
+    background:linear-gradient(purple,lightblue);
+}
+.achievement ul li{
+    list-style-type: circle;
+    text-align:justify;
+    padding:20px;
+}
